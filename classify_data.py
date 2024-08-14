@@ -20,7 +20,7 @@ def classify_data(row, classification_rules):
     return classified_data
 
 # Load the dataset from a CSV file
-df = pd.read_csv("dataset.csv")  # Replace "your_dataset.csv" with the path to your dataset file
+df = pd.read_csv("dataset.csv")  # Replace "dataset.csv" with the path to your dataset file
 
 # Create directory to save classified data
 output_dir = "classified_data"
